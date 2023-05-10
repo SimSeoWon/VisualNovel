@@ -1,0 +1,4 @@
+appError called: Assertion failed: bDirectoryExists [File:E:\trunk\UnrealEngine\Engine\Source\Runtime\RenderCore\Private\ShaderCore.cpp] [Line: 1757] 
+FPaths::DirectoryExists(../../../Engine/Shaders E:/trunk/VisualNovel/Engine/Shaders) DESKTOP-HV0I6DL
+
+Windows GetLastError: 작업을 완료했습니다. (0)

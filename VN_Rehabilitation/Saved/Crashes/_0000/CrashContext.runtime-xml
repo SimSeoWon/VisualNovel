@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>0417B7524C989B14E86299856CB039EC</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Assertion failed: bDirectoryExists [File:E:\trunk\UnrealEngine\Engine\Source\Runtime\RenderCore\Private\ShaderCore.cpp] [Line: 1757] 
+FPaths::DirectoryExists(../../../Engine/Shaders E:/trunk/VisualNovel/Engine/Shaders) DESKTOP-HV0I6DL
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-VN_Rehabilitation</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName></PlatformName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.0-0+++UE5+Release-5.1</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+<Symbols></Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17113096192</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>32682352640</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>5149081600</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>14563418112</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>156282880</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>171044864</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>91226112</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>109391872</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+UnrealEditor-RenderCore  0x00007ffe86350000 + 1ccfb4          
+UnrealEditor             0x00007ff71a1d0000 + 2e718           
+UnrealEditor             0x00007ff71a1d0000 + 22662           
+UnrealEditor             0x00007ff71a1d0000 + 2296a           
+UnrealEditor             0x00007ff71a1d0000 + 25680           
+UnrealEditor             0x00007ff71a1d0000 + 371b4           
+UnrealEditor             0x00007ff71a1d0000 + 3a516           
+KERNEL32                 0x00007ffedc540000 + 17604           
+ntdll                    0x00007ffeddf50000 + 526a1           
+</PCallStack>
+<PCallStackHash>886302C337E4BD919CD10C26D9E73FEE78F7B081</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                    0x00007ffeddf50000 + 9d0e4           
+KERNELBASE               0x00007ffedb660000 + 22d1e           
+UnrealEditor-Core        0x00007ffe36750000 + 794d74          
+UnrealEditor             0x00007ff71a1d0000 + 3eeb0           
+VCRUNTIME140             0x00007ffec6500000 + ef90            
+ntdll                    0x00007ffeddf50000 + a23df           
+ntdll                    0x00007ffeddf50000 + 514a4           
+ntdll                    0x00007ffeddf50000 + 511f5           
+KERNELBASE               0x00007ffedb660000 + 2cb69           
+UnrealEditor-Core        0x00007ffe36750000 + 794b15          
+UnrealEditor-Core        0x00007ffe36750000 + 798908          
+UnrealEditor-Core        0x00007ffe36750000 + 420c3d          
+UnrealEditor-Core        0x00007ffe36750000 + 357837          
+UnrealEditor-Core        0x00007ffe36750000 + 359939          
+UnrealEditor-RenderCore  0x00007ffe86350000 + 2c4fb8          
+UnrealEditor-RenderCore  0x00007ffe86350000 + 1ccfb4          
+UnrealEditor             0x00007ff71a1d0000 + 2e718           
+UnrealEditor             0x00007ff71a1d0000 + 22662           
+UnrealEditor             0x00007ff71a1d0000 + 2296a           
+UnrealEditor             0x00007ff71a1d0000 + 25680           
+UnrealEditor             0x00007ff71a1d0000 + 371b4           
+UnrealEditor             0x00007ff71a1d0000 + 3a516           
+KERNEL32                 0x00007ffedc540000 + 17604           
+ntdll                    0x00007ffeddf50000 + 526a1           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>22232</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffeddf50000 + 9d0e4           
+KERNELBASE         0x00007ffedb660000 + 22d1e           
+UnrealEditor-Core  0x00007ffe36750000 + 7e08d0          
+UnrealEditor-Core  0x00007ffe36750000 + 435074          
+UnrealEditor-Core  0x00007ffe36750000 + 21144b          
+UnrealEditor-Core  0x00007ffe36750000 + 7c3de2          
+UnrealEditor-Core  0x00007ffe36750000 + 7bbbf0          
+KERNEL32           0x00007ffedc540000 + 17604           
+ntdll              0x00007ffeddf50000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39832</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
